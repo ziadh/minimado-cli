@@ -1,0 +1,34 @@
+{
+  "name": "minimado-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for managing Minimado tasks from the command line",
+  "main": "index.js",
+  "bin": {
+    "mm": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "tasks",
+    "minimado",
+    "productivity",
+    "todo"
+  ],
+  "author": "ziadh <me@ziadhussein.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.0.0",
+    "ora": "^5.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziadh/minimado-cli.git"
+  },
+  "homepage": "https://github.com/ziadh/minimado-cli#readme",
+  "bugs": {
+    "url": "https://github.com/ziadh/minimado-cli/issues"
+  }
+}
